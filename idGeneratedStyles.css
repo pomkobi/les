@@ -10,6 +10,15 @@
 	font-family: "MyFont";
 	src: url(MyFont.ttf);
 }
+@font-face {
+	font-family: "A";
+	src: url(A.ttf);
+}
+@font-face {
+	font-family: "L";
+	src: url(L.ttf);
+}
+
 
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote {
 	margin:0;
@@ -24,7 +33,7 @@ div.Bloc-de-texte-standard {
 }
 p.Paragraphe-standard {
 	color:#000000;
-	font-family:"Oki";
+	font-family:"Oki", serif;
 	font-size:12px;
 	font-style:normal;
 	font-variant:normal;
@@ -47,20 +56,41 @@ p.ParaOverride-1 {
 	text-align:center;
 }
 span.CharOverride-1 {
-	font-family:"Oki";
+	font-family:Oki;
 	font-size:26px;
 	font-style:normal;
 	font-weight:normal;
 }
 span.CharOverride-2 {
-	font-family:"B";
+	font-family:B;
 	font-size:26px;
 	font-style:normal;
 	font-weight:normal;
 }
 span.CharOverride-3 {
-	font-family:"Myfont";
+	font-family:Myfont;
 	font-size:26px;
 	font-style:normal;
 	font-weight:normal;
+}
+span.CharOverride-4 {
+	font-family:L;
+	font-size:19px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-5 {
+	font-family:A;
+	font-size:26px;
+	font-style:normal;
+	font-weight:normal;
+}
+span.CharOverride-6 {
+	font-family:L;
+	font-size:19px;
+	font-style:normal;
+	font-weight:normal;
+}
+div._idGenObjectStyleOverride-1 {
+	border-width:0px;
 }
